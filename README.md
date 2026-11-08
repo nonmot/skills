@@ -6,7 +6,11 @@ GitHub CLI の Agent Skills 機能で導入できる、AI エージェント向�
 
 | スキル | 内容 |
 | --- | --- |
+| `git-commit` | 変更内容から Conventional Commit を作成する |
 | `github-pr` | Git の履歴から Pull Request のタイトル・本文を作り、`gh pr create` で PR を作成する |
+| `it-trends` | 国内外の主要ソースから日次ITトレンドを収集・要約する |
+| `meeting-minutes` | Meetily の文字起こしから構造化した議事録を作成する |
+| `weekly-note` | Obsidian 保管庫の週次ノートを作成する |
 
 ## 導入
 
