@@ -33,7 +33,13 @@ gh auth login
 
 ### Codex のプロジェクトへ導入
 
-対象プロジェクトのルートで実行します。スキルは `.agents/skills/github-pr/` に導入されます。
+対象プロジェクトのルートで実行します。`<skill-name>` を「利用できるスキル」表の名前に置き換えてください。スキルは `.agents/skills/<skill-name>/` に導入されます。
+
+```bash
+gh skills install nonmot/skills <skill-name> --agent codex --scope project
+```
+
+たとえば `github-pr` を導入する場合:
 
 ```bash
 gh skills install nonmot/skills github-pr --agent codex --scope project
@@ -42,7 +48,7 @@ gh skills install nonmot/skills github-pr --agent codex --scope project
 ### Codex で常に使えるように導入
 
 ```bash
-gh skills install nonmot/skills github-pr --agent codex --scope user
+gh skills install nonmot/skills <skill-name> --agent codex --scope user
 ```
 
 `gh skill` と `gh skills` は同じコマンドです。ほかの対応エージェントに導入する場合は、`--agent codex` をそのエージェント名に変更してください。
@@ -52,7 +58,7 @@ gh skills install nonmot/skills github-pr --agent codex --scope user
 導入前にスキルの内容を確認できます。
 
 ```bash
-gh skills preview nonmot/skills github-pr
+gh skills preview nonmot/skills <skill-name>
 ```
 
 導入済みスキルの一覧と更新には、次を使います。
