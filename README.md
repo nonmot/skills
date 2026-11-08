@@ -12,6 +12,17 @@ GitHub CLI の Agent Skills 機能で導入できる、AI エージェント向�
 | `meeting-minutes` | Meetily の文字起こしから構造化した議事録を作成する |
 | `weekly-note` | Obsidian 保管庫の週次ノートを作成する |
 
+## 外部スキル
+
+次のスキルはこのリポジトリには含めず、配布元を参照してください。
+
+| スキル | 配布元 |
+| --- | --- |
+| `stop-ai-slop-jp` | [iKora128/stop-ai-slop-jp](https://github.com/iKora128/stop-ai-slop-jp) |
+| `grill-with-docs` | [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/skills/engineering/grill-with-docs) |
+| `gh-stack` | [github/gh-stack](https://github.com/github/gh-stack) |
+| Hunk review skill | [Hunk documentation](https://www.hunk.dev/docs/agents/review-skill/) |
+
 ## 導入
 
 GitHub CLI にログイン済みであることを確認してください。
